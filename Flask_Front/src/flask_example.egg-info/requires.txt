@@ -1,0 +1,11 @@
+flask==1.1.1
+pymongo
+dnspython
+pandas
+numpy
+pyLDAvis
+pyquery
+gensim
+nltk
+logging
+wordcloud

@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+    frontend:
+      build:
+        context: ./Flask_Front
+        dockerfile: DockerFile
+      command: start-front
+      ports:
+        - "5000:5000"
+
+    backend:
+      build:
+        context: ./Flask_Back
+        dockerfile: DockerFile
+      command: start-back
+
+    scraper:
+      build:
+        context: ./Flask_WS
+        dockerfile: DockerFile
+      command: start-scrap
+
+    db:
+      image: mongo
+      ports:
+        - "27017:27017"

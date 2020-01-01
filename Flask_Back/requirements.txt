@@ -1,0 +1,12 @@
+flask==1.1.1
+pymongo==3.9.0
+dnspython==1.16.0
+pandas==0.24.2
+numpy==1.16.4
+pyquery==1.4.0
+requests==2.20.1
+newspaper3k==0.2.8
+nltk==3.4.4
+gensim==3.8.0
+wordcloud==1.5.0
+pyldavis==2.1.2

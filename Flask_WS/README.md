@@ -1,0 +1,3 @@
+# AprioriJLM
+
+Apriori project

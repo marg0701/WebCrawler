@@ -1,0 +1,3 @@
+[console_scripts]
+start-app = flask_example:start_app
+
