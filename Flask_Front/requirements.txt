@@ -2,7 +2,7 @@ flask==1.1.1
 pymongo==3.9.0
 dnspython==1.16.0
 pandas==0.24.2
-numpy==1.16.4
+numpy==1.22.0
 pyquery==1.4.0
 requests==2.20.1
 newspaper3k==0.2.8
